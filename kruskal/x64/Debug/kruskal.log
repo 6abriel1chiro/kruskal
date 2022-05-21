@@ -1,0 +1,18 @@
+﻿  main.cpp
+C:\Users\ichir\source\repos\kruskal\kruskal\kruskal\NodoMonticulo.h(24,1): warning C4812: obsolete declaration style: please use 'NodoMonticulo<T>::NodoMonticulo' instead
+C:\Users\ichir\source\repos\kruskal\kruskal\kruskal\Monticulo.h(27,1): warning C4812: obsolete declaration style: please use 'Monticulo<T>::Monticulo' instead
+C:\Users\ichir\source\repos\kruskal\kruskal\kruskal\NodoMonticulo.h(24,1): warning C4812: obsolete declaration style: please use 'NodoMonticulo<int>::NodoMonticulo' instead
+C:\Users\ichir\source\repos\kruskal\kruskal\kruskal\NodoMonticulo.h(24): message : while compiling class template member function 'NodoMonticulo<int>::NodoMonticulo(void)'
+C:\Users\ichir\source\repos\kruskal\kruskal\kruskal\Grafo.h(66): message : see reference to function template instantiation 'NodoMonticulo<int>::NodoMonticulo(void)' being compiled
+C:\Users\ichir\source\repos\kruskal\kruskal\kruskal\Grafo.h(63): message : while compiling class template member function 'void Grafo<std::string>::busqueda(std::map<std::string,Nodo<std::string>,std::less<std::string>,std::allocator<std::pair<const std::string,Nodo<std::string>>>> &,std::string)'
+C:\Users\ichir\source\repos\kruskal\kruskal\kruskal\main.cpp(27): message : see reference to function template instantiation 'void Grafo<std::string>::busqueda(std::map<std::string,Nodo<std::string>,std::less<std::string>,std::allocator<std::pair<const std::string,Nodo<std::string>>>> &,std::string)' being compiled
+C:\Users\ichir\source\repos\kruskal\kruskal\kruskal\main.cpp(4): message : see reference to class template instantiation 'Grafo<std::string>' being compiled
+C:\Users\ichir\source\repos\kruskal\kruskal\kruskal\Monticulo.h(27,1): warning C4812: obsolete declaration style: please use 'Monticulo<int>::Monticulo' instead
+C:\Users\ichir\source\repos\kruskal\kruskal\kruskal\Monticulo.h(27): message : while compiling class template member function 'Monticulo<int>::Monticulo(void)'
+C:\Users\ichir\source\repos\kruskal\kruskal\kruskal\Grafo.h(69): message : see reference to function template instantiation 'Monticulo<int>::Monticulo(void)' being compiled
+C:\Users\ichir\source\repos\kruskal\kruskal\kruskal\Monticulo.h(39,4): warning C4101: 'aux': unreferenced local variable
+C:\Users\ichir\source\repos\kruskal\kruskal\kruskal\Monticulo.h(38): message : while compiling class template member function 'void Monticulo<int>::recuperarAbajoArriba(int)'
+C:\Users\ichir\source\repos\kruskal\kruskal\kruskal\Monticulo.h(136): message : see reference to function template instantiation 'void Monticulo<int>::recuperarAbajoArriba(int)' being compiled
+C:\Users\ichir\source\repos\kruskal\kruskal\kruskal\Monticulo.h(27): message : while compiling class template member function 'Monticulo<int>::Monticulo(void)'
+C:\Users\ichir\source\repos\kruskal\kruskal\kruskal\Grafo.h(69): message : see reference to function template instantiation 'Monticulo<int>::Monticulo(void)' being compiled
+  kruskal.vcxproj -> C:\Users\ichir\source\repos\kruskal\kruskal\kruskal\x64\Debug\kruskal.exe
