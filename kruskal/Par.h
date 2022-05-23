@@ -10,6 +10,7 @@ private:
 	int peso;
 public:
 	Par(Par<T>* sig, T elem, int peso);
+	Par(Par<T>* sig, T elem);
 	~Par();
 	Par* getSig();
 	T getElem();
@@ -24,6 +25,14 @@ Par<T>::Par(Par<T>* sig, T elem, int peso)
 	this->sig = sig;
 	this->elem = elem;
 	this->peso = peso;
+}
+
+template <class T>
+Par<T>::Par(Par<T>* sig, T elem)
+{
+	this->sig = sig;
+	this->elem = elem;
+	this->peso = -1;
 }
 template <class T>
 Par<T>::~Par()
@@ -55,6 +64,7 @@ void Par<T>::setElem(T elem)
 {
 	this->elem = elem;
 }
+
 template <class T>
 void Par<T>::setPeso(int peso)
 {

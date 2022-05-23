@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Grafo.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -26,8 +27,8 @@
     <ClInclude Include="Lista7.h" />
     <ClInclude Include="Monticulo.h" />
     <ClInclude Include="Nodo.h" />
-    <ClInclude Include="NodoMonticulo.h" />
     <ClInclude Include="Par.h" />
+    <ClInclude Include="Trio.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

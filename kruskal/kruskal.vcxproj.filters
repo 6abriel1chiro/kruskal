@@ -18,6 +18,9 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Grafo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Grafo.h">
@@ -32,10 +35,10 @@
     <ClInclude Include="Nodo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NodoMonticulo.h">
+    <ClInclude Include="Par.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Par.h">
+    <ClInclude Include="Trio.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

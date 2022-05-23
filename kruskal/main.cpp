@@ -1,15 +1,16 @@
 #include "Grafo.h"
 int main()
 {
-	Grafo<string> grafo;
-	string origen, destino;
+	Grafo grafo;
 	int opcion;
+	int a=0;
+
 	do
 	{
 		system("cls");
 		cout << "Menu de Opciones" << endl;
 		cout << "1 Insertar Archivo" << endl;
-		cout << "2 Dijkstra" << endl;
+		cout << "2 Kruskal" << endl;
 		cout << "3 Mostrar" << endl;
 		cout << "4 Salir" << endl;
 		cout << " Escoja la opcion: ";
@@ -17,14 +18,11 @@ int main()
 		switch (opcion)
 		{
 		case 1:
-			grafo.llenarGrafo(grafo.getGrafo(), "num.txt");
-			grafo.mostrar(grafo.getGrafo());
-			system("pause");
+			grafo.leerArchivo(grafo.getGrafo(), "direccion.txt");
 			break;
 		case 2:
-			cout << "Ingrese un origen: ";
-			cin >> origen;
-			grafo.busqueda(grafo.getGrafo(), origen);
+			//cout << "Ingrese un origen: ";
+			grafo.kruskal(grafo.getGrafo(), a);
 			break;
 		case 3:
 			grafo.mostrar(grafo.getGrafo());
