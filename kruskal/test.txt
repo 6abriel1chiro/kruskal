@@ -1,5 +1,0 @@
-Sacaba Centro 20
-Sacaba Norte 5
-Centro Norte 8
-Norte Sud 30
-Centro Sud 12
